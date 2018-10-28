@@ -71,7 +71,7 @@ app.get('/:custcode/:usercode/:password', function (req, res) {
 	request({url: url, jar: jar}, function(error, response, body) {
 		  $ = cheerio.load(body);
 		  if ($('.name').length) {
-		  	res.send('{"status":"OK", "sessionId":"' + jar.getCookies(url)[0].value + '"}');
+		  	res.send('{"status":"OK", "sessionId":"' + jar['cookies'][0]['value'] + '"}');
 		  } else {
 		  	res.send('{"status":"error"}');
 		  }
