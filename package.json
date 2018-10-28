@@ -1,0 +1,25 @@
+{
+  "name": "classeviva-api",
+  "version": "0.0.1",
+  "description": "Classeviva API (dev status)",
+  "main": "app.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BaldEagleX02/classeViva-api.git"
+  },
+  "author": "Edoardo Conti - Carlo Federico Vescovo",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/BaldEagleX02/classeViva-api/issues"
+  },
+  "homepage": "https://github.com/BaldEagleX02/classeViva-api#readme"
+}
