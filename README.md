@@ -1,4 +1,10 @@
 # classeViva-api
+## Deprecated API
+Spaggiari implemented a new interface. Therefore, this API does not work anymore.
+
+[cfvescovo](https://github.com/cfvescovo) is planning to create a new API for Classeviva written in Rust.
+
+## Descrizione
 Web-service per l'erogazione di informazioni in formato JSON tramite API esterne del portale classeViva. 
 Software dipendente da Node.js e moduli npm.
 
